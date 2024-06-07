@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/power/<int:x>/<int:y>')
 def power(x, y):
     result = x ** y
-    print("today is 16-5-2024 V4")
+    print("today is 7-6-2024 V5")
     return jsonify(result=result)  # Return a JSON response with the result
 
 @app.route('/health_V2')
